@@ -2,13 +2,72 @@ body,
 html {
     margin: 0;
     padding: 0;
+    width: 100%;
+    height: 100%;
     font-size: 18px;
     font-family: "Helvetica Neue", serif;
     line-height: 1.5em;
+    background-color: lightgray;
 }
-
+header{
+    top: 0px;
+    position: sticky;
+    text-align: center;
+    background-color: black;
+}
+header img{
+    display: inline-block;
+    vertical-align:middle;
+    margin-right: 700px;
+    border-radius: 50%;
+}
+header h1{
+    vertical-align:middle;
+    display: inline-block;
+    color: white;
+}
+header nav{
+    display: inline-block;
+    margin-left: 700px;
+}
 ul {
     list-style: none;
     margin: 0;
     padding: 0;
+}
+li{
+    display: inline;
+}
+a{
+    color: white;
+}
+main{
+    margin: 0 auto;
+    padding: 0;
+}
+#description{
+    padding-left: 10%;
+    padding-right: 10%;
+}
+#description img{
+ float: left;
+}
+.description-p2{
+    display: inline-table;
+}
+#relationship img{
+    float: right;
+}
+#relationship{
+    overflow:hidden;
+    padding-left: 10%;
+    padding-right: 10%;
+    background-color: white;
+}
+footer{
+    padding-top: 2%;
+    background-color: darkgray;
+    text-align: center;
+    width:100%;
+    height: 7%;
 }
