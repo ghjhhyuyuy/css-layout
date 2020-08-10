@@ -12,7 +12,6 @@ html {
 header{
     top: 0px;
     position: sticky;
-    text-align: center;
     background-color: black;
 }
 header img{
@@ -22,13 +21,14 @@ header img{
     border-radius: 50%;
 }
 header h1{
+    margin: 30px;
     vertical-align:middle;
     display: inline-block;
     color: white;
 }
 header nav{
     display: inline-block;
-    margin-left: 700px;
+    margin-left: 600px;
 }
 ul {
     list-style: none;
